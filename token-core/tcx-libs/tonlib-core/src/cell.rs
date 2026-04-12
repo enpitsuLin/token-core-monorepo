@@ -11,7 +11,6 @@ pub use error::*;
 use hmac::digest::Digest;
 use lazy_static::lazy_static;
 pub use parser::*;
-pub use raw::*;
 use sha2::Sha256;
 pub use state_init::*;
 
@@ -82,7 +81,7 @@ impl Cell {
         Ok(result)
     }
 
-    pub fn parser(&self) -> CellParser {
+    pub fn parser(&self) -> CellParser<'_> {
         CellParser::new(self.bit_len, &self.data, &self.references)
     }
 

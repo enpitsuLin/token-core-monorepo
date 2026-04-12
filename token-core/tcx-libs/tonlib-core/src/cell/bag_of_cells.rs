@@ -2,6 +2,7 @@ use std::sync::Arc;
 
 use base64::engine::general_purpose::STANDARD;
 
+use crate::cell::raw::RawBagOfCells;
 use crate::cell::*;
 
 #[derive(PartialEq, Eq, Debug, Clone, Hash)]
