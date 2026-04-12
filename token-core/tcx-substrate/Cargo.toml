@@ -1,8 +1,8 @@
 [package]
 name = "tcx-substrate"
-version = "0.1.0"
+version.workspace = true
 authors = ["Neal Xu <imxuneal@gmail.com>"]
-edition = "2021"
+edition.workspace = true
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -21,7 +21,9 @@ bytes = "=1.4.0"
 prost-types = "=0.11.2"
 
 base58 = "=0.2.0"
-codec = { package = "parity-scale-codec", default-features = false, features = ["derive"] }
+codec = { package = "parity-scale-codec", version = "=3.5.0", default-features = false, features = [
+  "derive",
+] }
 rand = "=0.8.5"
 
 anyhow = { version = "=1.0.79", features = [] }

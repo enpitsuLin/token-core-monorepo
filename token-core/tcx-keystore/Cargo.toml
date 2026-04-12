@@ -1,8 +1,8 @@
 [package]
 name = "tcx-keystore"
-version = "0.1.0"
+version.workspace = true
 authors = ["Neal Xu <imxuneal@gmail.com>"]
-edition = "2021"
+edition.workspace = true
 
 [dependencies]
 tcx-crypto = { path = "../tcx-crypto" }

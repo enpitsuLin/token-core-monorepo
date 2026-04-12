@@ -1,8 +1,8 @@
 [package]
 name = "tcx-tezos"
-version = "0.1.0"
+version.workspace = true
 authors = ["xiaoguang <xiaoguang101010@163.com>"]
-edition = "2021"
+edition.workspace = true
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

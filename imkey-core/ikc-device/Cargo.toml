@@ -1,6 +1,6 @@
 [package]
 name = "ikc-device"
-version = "0.1.0"
+version.workspace = true
 authors = ["wyoyw <wyoyw@126.com>"]
 edition = "2018"
 

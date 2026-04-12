@@ -1,6 +1,6 @@
 [package]
 name = "coin-substrate"
-version = "0.1.0"
+version.workspace = true
 authors = ["xiemener <xielamenla@qq.com>"]
 edition = "2018"
 

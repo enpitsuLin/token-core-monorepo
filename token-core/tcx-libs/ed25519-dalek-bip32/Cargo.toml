@@ -2,7 +2,7 @@
 name = "ed25519-dalek-bip32"
 version = "0.3.0"
 authors = ["Julian Popescu <jpopesculian@gmail.com>"]
-edition = "2021"
+edition.workspace = true
 license = "MIT OR Apache-2.0"
 readme = "README.md"
 homepage = "https://github.com/jpopesculian/ed25519-dalek-bip32"

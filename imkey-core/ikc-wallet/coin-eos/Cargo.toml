@@ -1,6 +1,6 @@
 [package]
 name = "coin-eos"
-version = "0.1.0"
+version.workspace = true
 authors = ["joe <xielamenla@qq.com>"]
 edition = "2018"
 
