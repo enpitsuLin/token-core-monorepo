@@ -1,6 +1,6 @@
 [package]
 name = "coin-bitcoin"
-version.workspace = true
+version = "0.1.0"
 authors = ["xiaoguang101010 <xiaoguang101010@163.com>"]
 edition = "2018"
 

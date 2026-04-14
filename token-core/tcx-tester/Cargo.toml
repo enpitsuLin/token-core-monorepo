@@ -1,6 +1,6 @@
 [package]
 name = "tcx-tester"
-version.workspace = true
+version = "0.1.0"
 authors = ["Neal Xu <imxuneal@gmail.com>"]
 edition = "2018"
 

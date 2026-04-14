@@ -1,6 +1,6 @@
 [package]
 name = "ikc-proto"
-version.workspace = true
+version = "0.1.0"
 authors = ["IMLXM <liuxm1986@gmail.com>"]
 edition = "2018"
 

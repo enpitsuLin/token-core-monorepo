@@ -1,8 +1,8 @@
 [package]
 name = "tcx-crypto"
-version.workspace = true
+version = "0.1.0"
 authors = ["Neal Xu <imxuneal@gmail.com>"]
-edition.workspace = true
+edition = "2021"
 
 [dependencies]
 tcx-constants = {path="../tcx-constants"}

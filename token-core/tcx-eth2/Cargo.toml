@@ -1,6 +1,6 @@
 [package]
 name = "tcx-eth2"
-version.workspace = true
+version = "0.1.0"
 authors = ["xiaoguang <xiaoguang101010@163.com>"]
 edition = "2018"
 

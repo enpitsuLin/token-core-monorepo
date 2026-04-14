@@ -2,7 +2,7 @@
 name = "tonlib-core"
 description = "Rust SDK for The Open Network"
 version = "0.21.1"
-edition.workspace = true
+edition = "2021"
 license = "MIT"
 repository = "https://github.com/ston-fi/tonlib-rs"
 resolver = "2"
